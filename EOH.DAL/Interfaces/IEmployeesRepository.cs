@@ -11,6 +11,6 @@ namespace EOH.DAL.Interfaces
     {
         Role SelectRoleByName(string roleName);
 
-        Role SelectRoleById(int roleId);
+        Role SelectRoleById(int roleId); 
     }
 }
